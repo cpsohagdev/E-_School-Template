@@ -1,0 +1,273 @@
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* start hero top header ============================== */
+    
+    .top_header .navbar {
+        background: transparent !important;
+    }
+    
+    .top_header .logo img {
+        width: 150px;
+    }
+    
+    .top_header ul.our_menu {
+        margin-left: auto;
+        margin-right: 25px;
+    }
+    
+    .top_header ul.our_menu li {
+        padding: 5px 15px;
+    }
+    
+    .top_header ul.our_menu li a {
+        text-decoration: none;
+        font-weight: 400;
+        color: #000;
+        font-size: 16px;
+        transition: all .4s ease;
+    }
+    
+    .top_header ul.our_menu li a:hover {
+        color: #21B573;
+    }
+    
+    .btn-primary {
+        background: #21B573 !important;
+        border: 1px solid transparent !important;
+        padding: 6px 20px !important;
+        border-radius: 20px !important;
+        transition: all .4s ease;
+        font-weight: 700 !important;
+    }
+    
+    .btn-primary:hover {
+        background: transparent !important;
+        border: 1px solid #21B573 !important;
+        color: #21B573 !important;
+    }
+    /* main hero section ================================== */
+    
+    .hero_main {
+        margin-top: 50px;
+    }
+    
+    .hero_main .baner_img img {
+        width: 600px;
+    }
+    
+    .hero_main .hero_content .hero_smaill_heading {
+        color: #FD511A;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    
+    .hero_main .hero_content .hero_heading {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    .hero_main .hero_content .hero_heading .heigh_lite {
+        color: #21B573;
+        margin-left: 10px;
+    }
+    
+    .hero_main .hero_content p {
+        color: #6C6B6B;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .full_hero {
+        background: #F0FFF0;
+        padding: 30px 10px;
+    }
+    /* start book list section =============================== */
+    
+    .book_list {
+        margin-top: 100px;
+    }
+    
+    .book_list .book_list_images {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .book_list .book_list_hading {
+        font-size: 20px;
+        color: #413960;
+        font-weight: 600;
+    }
+    
+    .book_list .white_bg {
+        background: #F0FFF0;
+        padding: 20px 0;
+        border-radius: 5px;
+        transition: all .4s ease;
+    }
+    
+    .active_shaow_color {
+        background: white;
+        transition: all .4s ease;
+    }
+    
+    .active_shaow_color:hover {
+        background: #F0FFF0 !important;
+    }
+    
+    .book_list .white_bg:hover {
+        background: white;
+    }
+    
+    .book_list .active_shaow_color {
+        box-shadow: 5px 4px 15px gainsboro, -5px 0px 10px gainsboro;
+    }
+    
+    .active_shaow_color {
+        background: white !important;
+    }
+    
+    .book_list .white_bg:hover {
+        box-shadow: 5px 4px 15px gainsboro, -5px 0px 10px gainsboro;
+    }
+    
+    .book_list .book_list_text {
+        color: #585859;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    /* satrt Online Courses section  =========================== */
+    
+    .Online_Courses {
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .Online_Courses .Online_Courses_main_hading {
+        font-size: 35px;
+        color: #413960;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    
+    .Online_Courses .online_course_img {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    
+    .Online_Courses .Online_Courses_hading {
+        font-size: 20px;
+        color: #413960;
+        font-weight: 500;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    
+    .Online_Courses .small_btn {
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        padding: 5px 15px !important;
+        margin-bottom: 15px;
+    }
+    
+    .Online_Courses .online_course_icons .date_text {
+        margin-right: 20px;
+    }
+    
+    .Online_Courses .online_course_icons .date_text a i,
+    .Online_Courses .online_course_icons .user_text a i {
+        font-size: 14px;
+        color: #585859;
+        margin-right: 5px;
+    }
+    
+    .Online_Courses .online_course_icons .date_text a,
+    .Online_Courses .online_course_icons .user_text a {
+        font-size: 14px;
+        color: #585859;
+        text-decoration: none;
+    }
+    
+    .Online_Courses .white_bgg {
+        background: white;
+        box-shadow: 5px 5px 20px gainsboro;
+        width: 290px;
+        padding: 20px;
+        margin: auto;
+    }
+    /* start Testimonial section  ===================== */
+    
+    .container-custom {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .Testimonial {
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .Testimonial .Testimonial_main_hadding {
+        font-size: 35px;
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    
+    .Testimonial .left_img {
+        width: 100px;
+        margin-left: auto;
+    }
+    
+    .Testimonial .left_img img {
+        width: 100%;
+    }
+    
+    .Testimonial .right_text p {
+        margin-bottom: 0;
+        color: #000;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    /* start footer section  ========================= */
+    
+    .footer_section {
+        margin-top: 100px;
+        background: #282531;
+        padding: 60px 20px;
+    }
+    
+    .footer_section .left_site_text {
+        color: rgb(218, 217, 217);
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .footer_section .list_items {
+        list-style: none;
+    }
+    
+    .footer_section .list_items li a {
+        color: rgb(218, 217, 217);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .footer_section .list_items li a span {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .footer_section .copy_right_text {
+        color: white;
+        margin-top: 50px;
+    }
