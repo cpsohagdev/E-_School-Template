@@ -1,0 +1,75 @@
+@media(max-width:990px) {
+    .hero_main .baner_img img {
+        width: 400px;
+    }
+    .hero_main .hero_content .hero_smaill_heading {
+        font-size: 14px;
+    }
+    .hero_main .hero_content .hero_heading {
+        font-size: 30px;
+    }
+    .hero_main .hero_content .hero_heading .heigh_lite {
+        color: #21B573;
+        margin-left: 5px;
+    }
+    .hero_main .hero_content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .full_hero {
+        padding: 20px;
+    }
+    .book_list .white_bg {
+        width: 200px;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width:670px) {
+    .hero_main .baner_img img {
+        width: 350px;
+    }
+    .hero_main .hero_content .hero_smaill_heading {
+        font-size: 14px;
+    }
+    .hero_main .hero_content .hero_heading {
+        font-size: 25px;
+    }
+    .hero_main .hero_content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .full_hero {
+        padding: 20px;
+    }
+}
+
+@media(max-width:575px) {
+    .hero_main .baner_img img {
+        width: 350px;
+    }
+    .hero_main .hero_content {
+        width: 100%;
+        text-align: center;
+    }
+    .hero_main .baner_img {
+        width: 100%;
+        text-align: center;
+    }
+    .hero_main .hero_content .hero_smaill_heading {
+        font-size: 14px;
+    }
+    .hero_main .hero_content .hero_heading {
+        font-size: 25px;
+    }
+    .hero_main .hero_content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .full_hero {
+        padding: 20px;
+    }
+    .book_list .custom_card_width {
+        width: 100px;
+    }
+}
